@@ -1,6 +1,6 @@
 {
-  "name": "express-validation",
-  "version": "1.0.1",
+  "name": "dwp-express-validation",
+  "version": "1.0.2",
   "author": "Andrew Keig <andrew.keig@gmail.com>",
   "description": "express-validation is a middleware that validates the body, params, query, headers and cookies of a request and returns a response with errors; if any of the configured validation rules fail.",
   "homepage": "https://github.com/andrewkeig/express-validation",
@@ -8,11 +8,17 @@
     {
       "name": "Valerio Coltre",
       "email": "mister.gamer@gmail.com"
+    },
+    { "name": "Adrian Wilkins",
+      "email": "adrian.wilkins@dwp.gsi.gov.uk"
     }
   ],
+  "publishConfig": {
+    "registry": "http://artifactory.itsshared.net:8081/artifactory/api/npm/vms-release-local/"
+  },
   "repository": {
     "type": "git",
-    "url": "https://github.com/andrewkeig/express-validation"
+    "url": "https://github.com/awilkins/express-validation"
   },
   "dependencies": {
     "lodash": "^4.9.0"
